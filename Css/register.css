@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.grupo {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-width: 50vw;
+}
+
+a {
+  color: white;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+a :link,
+a :visited {
+  color: white;
+  text-decoration: none;
+}
+
+a :hover {
+transform: scale(1.1);
+}
+
+.login {
+  margin-top: 23px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+#access-login:hover {
+color:#f4a914;
+transform: scale(1.07);
+}
+
+fieldset {
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+  margin-left: auto;
+  align-items: flex-start;
+  margin-top: 150px;
+  color: #64eb37;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+input {
+  border-radius: 5px;
+  margin: 2px;
+}
+
+#picture-tarefas {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.campo {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.campo input[type="text"],
+.campo input[type="password"] {
+  padding: 7px;
+  border: 2px solid #64eb37;
+}
+
+.campo input :focus {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao {
+  padding: 8px;
+  width: 260px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: black;
+  background-color: rgb(19, 198, 9);
+  border: 1px solid rgb(19, 198, 9);
+  font-family: sans-serif;
+  font-size: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(126, 144, 133, 0.31);
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: black;
+  text-shadow: none;
+  transform: scale(1.02);
+}
+
+#box {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  align-items: center;
+}
+
+.block {
+  display: block;
+  text-align: center;
+  max-width: 40vw;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nickname {
+  width: 250px;
+  height: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#senha {
+  width: 250px;
+  height: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#repeatsenha {
+  width: 250px;
+  height: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#align-button {
+  align-items: center;
+}
+
+#creat-acount {
+  margin-top: 15px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+#creat-acount:link,
+#creat-acount:visited {
+  color: rgb(49, 149, 9);
+  text-decoration: none;
+}
+
+.acount {
+  margin-top: 15px;
+  font-family: sans-serif;
+  font-size: 17px;
+  align-items: center;
+}
+
+.acount:hover {
+  transform: scale(1.1);
+  color: rgb(10, 74, 4);
+}
+
+#title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.image {
+  max-width: 44.5vw;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  #box {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: black;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .grupo {
+    max-width: 80vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .botao {
+    width: 260px;
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  image {
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #picture-tarefas {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .block {
+    display: block;
+    text-align: center;
+    max-width: 40vw;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .botao:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: black;
+    text-shadow: none;
+    transform: scale(1.02);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .image {
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grupo {
+    max-width: 80vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .block {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  .botao {
+    width: 265px;
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #title {
+    margin-top: 20px;
+  }
+
+  .botao:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: black;
+    text-shadow: none;
+    transform: scale(1.02);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .image {
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grupo {
+    max-width: 80vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .block {
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  fieldset.grupo {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botao {
+    width: 265px;
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #nickname {
+    width: 250px;
+    height: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #senha {
+    width: 250px;
+    height: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #title {
+    margin-top: 20px;
+  }
+
+  .botao:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: black;
+    text-shadow: none;
+    transform: scale(1.02);
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transform: (-90%, -15%);
+  }
+
+  .image {
+    max-width: 100vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grupo {
+    max-width: 80vw;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .block {
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  fieldset.grupo {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botao {
+    width: 150px;
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #title {
+    margin-top: 20px;
+  }
+
+  .botao:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: black;
+    text-shadow: none;
+    transform: scale(1.02);
+  }
+
+  #nickname {
+    width: 80px;
+    height: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  #senha {
+    width: 80px;
+    height: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

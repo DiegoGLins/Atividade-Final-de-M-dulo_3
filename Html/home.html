@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/home.css" />
+    <title>Lista de recados</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lista de recados</h1>
+      <form id="listarecados">
+        <div class="align">
+          <label class="text-label" for="descricao">Descrição</label>
+          <input id="descricao" type="text" required/>
+          <label class="text-label" for="detalhamento">Detalhamento</label>
+          <input id="detalhamento" type="text" required/>
+          <button id="save" type="submit"><strong>Salvar</strong></button>
+          <button id="logout" type="button"><strong>Sair</strong></button>
+        </div>
+      </form>
+      <div class="tabela">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Descrição</th>
+              <th>Detalhamento</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+        
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <script src="../Js/home.js"></script>
+  </body>
+</html>

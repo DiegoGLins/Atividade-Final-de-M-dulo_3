@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="../Css/register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="image">
+        <img
+          id="picture-tarefas"
+          src="../images/controle-de-tarefas.png"
+          alt="tarefas"
+          srcset=""
+        />
+      </section>
+
+      <div>
+        <div id="box" class="block">
+          <div>
+            <h2 id="title">CRIAR CONTA</h2>
+            <br />
+          </div>
+
+          <fieldset class="grupo">
+            <form id="registerForm">
+              <div class="campo">
+                <input
+                  type="text"
+                  name="nickname"
+                  id="nickname"
+                  placeholder="Crie um nome de usuário"
+                  required
+                />
+              </div>
+
+              <div class="campo">
+                <input
+                  type="password"
+                  name="senha"
+                  id="senha"
+                  value=""
+                  placeholder="Crie uma senha"
+                  required
+                />
+              </div>
+
+              <div class="campo">
+                <input
+                  type="password"
+                  name="repeatsenha"
+                  id="repeatsenha"
+                  value=""
+                  placeholder="Por favor repita a senha"
+                  required
+                />
+              </div>
+              <div>
+                <button type="submit" class="botao">
+                  <strong>CRIAR CONTA AGORA</strong>
+                </button>
+              </div>
+            </form>
+          </fieldset>
+
+          <div class="login">
+            <span >Já possui conta ?</span>
+             <a id="access-login" href="../Html/login.html">Fazer login</a>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../Js/register.js"></script>
+  </body>
+</html>

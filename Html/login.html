@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de recados</title>
+    <link rel="stylesheet" href="../Css/login.css" />
+
+  </head>
+  <body>
+    <div class="container">
+        <section class="image">
+          <img
+            id="picture-tarefas"
+            src="../images/controle-de-tarefas.png"
+            alt="tarefas"
+            srcset=""
+          />
+        </section>
+
+        <form id="loginForm">
+          <div id="box" class="block">
+            <div>
+              <h2 id="title">LISTA DE RECADOS</h2>
+              <p id="subtitle">Entrar no sistema de recados</p>
+              <br />
+            </div>
+
+            <fieldset class="grupo">
+              <div class="campo">
+                <input
+                  type="text"
+                  name="nickname"
+                  id="nickname"
+                  value=""
+                  placeholder="Digite seu nome de usuário" required
+                  />
+              </div>
+  
+              <div class="campo">
+                <input
+                  type="password"
+                  name="senha"
+                  id="senha"
+                  value=""
+                  placeholder="Digite sua senha" required
+                  />
+              </div>
+            </fieldset>
+            
+            <div>
+              <button type="submit" class="botao"><strong>ENTRAR</strong></button>
+            </div>
+    
+            <div class="acount">
+              <a id="creat-acount" href="../Html/register.html"><strong>Criar conta</strong> </a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <script src="../Js/login.js"> </script>
+  </body>
+</html>
